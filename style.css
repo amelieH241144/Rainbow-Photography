@@ -75,12 +75,19 @@ header {
 
 
 /* =========================
-   HOME PAGE
+   HOME PAGE - BLUE
 ========================= */
 
 .Home {
-    background: url('blue.jpeg') no-repeat center center;
-    background-size: cover;
+    background: #5bb7e8;
+    min-height: 100vh;
+}
+
+
+/* Home Navbar */
+
+.Home .navbar {
+    background: #4a9fd4;
 }
 
 
@@ -94,6 +101,7 @@ header {
     align-items: center;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 .hero-video {
@@ -203,8 +211,6 @@ header {
     margin-top: 15px;
     font-size: 50px;
     color: #fff;
-    width: 100%;
-    height: auto;
 }
 
 .gallery-item1 p {
@@ -215,16 +221,26 @@ header {
 
 
 /* =========================
-   ABOUT PAGE
+   ABOUT PAGE - LIGHT PINK
 ========================= */
 
 .about {
-    background: url('pink.jpeg') no-repeat center center;
-    background-size: cover;
+    background: #f8c8d8;
+    min-height: 100vh;
 }
 
+
+/* About Navbar */
+
+.about .navbar {
+    background: #e99ab5;
+}
+
+
+/* About Section */
+
 .about-page {
-    background-color: lightpink;
+    background-color: #ffdce7;
     padding: 40px 20px;
     border-radius: 50px;
     text-align: left;
@@ -267,7 +283,7 @@ header {
 /* About Gallery */
 
 .gallery2 {
-    padding: 0 10px;
+    padding: 20px 10px;
     max-width: 80%;
     margin: 0 auto;
 }
@@ -303,8 +319,6 @@ header {
     margin-top: 15px;
     font-size: 50px;
     color: #fff;
-    width: 100%;
-    height: auto;
 }
 
 .gallery-item2 p {
@@ -318,7 +332,7 @@ header {
 
 .story-section {
     background-color: transparent;
-    padding: 0;
+    padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
 }
@@ -338,12 +352,20 @@ header {
 
 
 /* =========================
-   GALLERY PAGE
+   GALLERY PAGE - YELLOW
 ========================= */
 
 .gallery-page {
-    background: url('yellow.jpeg') no-repeat center center;
-    background-size: cover;
+    background: #ffc928;
+    min-height: 100vh;
+}
+
+.gallery-page .navbar {
+    background: #f5b800;
+}
+
+.photo-gallery {
+    padding-top: 100px;
 }
 
 .photo-gallery .row .col-sm-6,
@@ -383,17 +405,21 @@ header {
 
 
 /* =========================
-   LOCATION PAGE
+   LOCATION PAGE - GREEN
 ========================= */
 
 .location {
-    background: url('green.jpeg') no-repeat center center;
-    background-size: cover;
+    background: #8bd000;
+    min-height: 100vh;
+}
+
+.location .navbar {
+    background: #70b900;
 }
 
 .location-header {
     background-color: transparent;
-    padding: 20px;
+    padding: 100px 20px 20px;
 }
 
 .location-header h1 {
@@ -427,12 +453,16 @@ header {
 
 
 /* =========================
-   CONTACT PAGE
+   CONTACT PAGE - PURPLE
 ========================= */
 
 .contact {
-    background: url('purple.jpeg') no-repeat center center;
-    background-size: cover;
+    background: #7100a8;
+    min-height: 100vh;
+}
+
+.contact .navbar {
+    background: #5d008c;
 }
 
 .formstyle {
@@ -441,7 +471,7 @@ header {
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 120px 20px 40px;
 }
 
 .contact-info {
@@ -593,7 +623,7 @@ footer p {
     .formstyle {
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 100px 20px 20px;
     }
 
     .contact-info,
